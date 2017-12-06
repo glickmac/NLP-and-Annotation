@@ -1,5 +1,5 @@
 # NLP: a Tutorial for Natural Language Processing 
-<img src="https://github.com/NCBI-Hackathons/VirusCore/blob/master/input.png" height="400" width="550">
+<img src="https://github.com/ucdenver-CPBS/NLP-and-Annotation/blob/master/img/cloud.png" height="400" width="550">
 
 
 ## Table of Contents
