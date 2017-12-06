@@ -2,6 +2,10 @@
 
 ## NLP Basics
 
+Link: http://compbio.ucdenver.edu/Hunter_lab/Cohen/17014_10006.pdf
+
+Summary: In our own Kevin Cohen's words, what is NLP? Why use it? Why study it? What are the main challenges we need to overcome?
+
 ## Ontologies
 
 Link: https://protege.stanford.edu/publications/ontology_development/ontology101.pdf
