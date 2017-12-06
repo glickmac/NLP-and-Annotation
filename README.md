@@ -98,7 +98,7 @@ You will find it very beneficial to become acquainted with tools like `awk`, `se
 | ... swap columns 1 and 2, separated by a ":" | `awk -F: -v OFS=":" '{print $2,$1}' INPUT_FILE`  |
 | ... keep only the first 3 columns from a tab-separated file | `awk -F\t -v OFS="\t" '{print $1,$2,$3}' INPUT_FILE > OUTPUT_FILE` |
 | ... remove duplicate lines from a file | `awk '!seen[$0]++' INPUT_FILE > OUTPUT_FILE` |
-| ... sort REALLY LARGE files (ideally in a cluster) | `sort --buffer-size=4G -k1,1 -k2,2n -i $BEDFILE_HG19 > $BEDFILE_HG19_SORTED` |
+| ... sort REALLY LARGE files (ideally in a cluster) | `sort --buffer-size=4G -k1,1 -k2,2n -i INPUT_FILE > OUTPUT_FILE` |
 | ... replace any instance of string `This is foo` with string `This is bar` | `sed 's/^\(This is \).*$/\1bar/'` |
 
 
