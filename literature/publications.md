@@ -2,6 +2,12 @@
 
 ## NLP Basics
 
+## Ontologies
+
+Link: https://protege.stanford.edu/publications/ontology_development/ontology101.pdf
+
+Summary: This will help you decide if you will need to use an ontology in your project. It discusses how to use Protege to explore existing ontologies and building your own. The latest edition of Protege can be found here: https://protege.stanford.edu/
+
 ## Semantic Web
 
 ### Cambridge Semantics Tutorial
