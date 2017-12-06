@@ -37,6 +37,14 @@ The majority of this tutorial is written in Python. Other languages that support
 
 ### Useful Resources
 
+#### Jupyter Tutorials in Respository
+
+* [Jupytercon](https://github.com/ucdenver-CPBS/NLP-and-Annotation/tree/master/notebooks/jupytercon-2017)
+* [NLTK Intro](https://github.com/ucdenver-CPBS/NLP-and-Annotation/blob/master/notebooks/nltk_Intro.ipynb) 
+* [Vectorizing Text](https://github.com/ucdenver-CPBS/NLP-and-Annotation/blob/master/notebooks/Vectorizing_Text.ipynb) 
+* [Making Word Clouds](https://github.com/ucdenver-CPBS/NLP-and-Annotation/blob/master/notebooks/Word_Clouds.ipynb)
+* [NLP with SpaCy](https://github.com/ucdenver-CPBS/NLP-and-Annotation/blob/master/notebooks/spaCy_Intro/spacy_intro.ipynb)
+
 #### Books
 
 * Jurafsky & Martin's NLP book [is available online in PDF format](https://web.stanford.edu/~jurafsky/slp3/)
@@ -55,8 +63,13 @@ The majority of this tutorial is written in Python. Other languages that support
 #### NLTK
 
 * [NLTK](http://www.nltk.org/) is one of the standard natural language processing libraries for Python. Keep in mind this is meant to deal with general language, so you may need to look for domain-specific (i.e. biomedicine) tools depending on your task.
-* For our particular domain, there are tools beyond NLTK that might perform better:
-   * [BioLemmatizer](http://biolemmatizer.sourceforge.net) can help you find the "lemma" of a term, within the context of biology.   
+* For our particular domain, there are tools beyond NLTK that might perform better: 
+ * [BioLemmatizer](http://biolemmatizer.sourceforge.net) can help you find the "lemma" of a term, within the context of biology. 
+
+#### SpaCy
+
+See the [jupyter notebook](https://github.com/ucdenver-CPBS/NLP-and-Annotation/blob/master/notebooks/spaCy_Intro/spacy_intro.ipynb) in this repository for more information.    
+  
 
 ## <a name="install"></a>Installing NLP Packages
 
