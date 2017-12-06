@@ -62,7 +62,7 @@ Required software
 + [Glimmer3](https://ccb.jhu.edu/software/glimmer/)
 
 
-## <a name="usage"></a><a name="tutorials"></a>NLP Usage
+## <a name="usage"></a><a name="tutorial"></a>NLP Usage
 
 
 
