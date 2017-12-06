@@ -1,20 +1,20 @@
-# NLP: a Tutorial for Natural Language Processing 
+# Conlp: Colorado Natural Language Processing Repository 
 ## Table of Contents
 
 [What is NLP?](#intro)    
 [Why is this important?](#importance)    
 [What Language?](#workflow)       
 [Installing NLP Tools](#install)    
-[NLP Usage](#usage)        
+[NLP Tutorials](#tutorial)        
 [Additional Functionality](#additional)    
 
 ## <a name="intro"></a>What is NLP?
 
-NLP is blah
+Natural Language Process or NLP is blah
 
 ## <a name="importance"></a>Why is this important?
 
-NLP can do x
+NLP is used in x, y, and z. 
 
 ## <a name="workflow"></a>Languages Supporting NLP Packages
 
@@ -62,7 +62,11 @@ Required software
 + [Glimmer3](https://ccb.jhu.edu/software/glimmer/)
 
 
-## <a name="usage"></a><a name="quickstart"></a>NLP Usage
+## <a name="usage"></a><a name="tutorial"></a>NLP Usage
+
+
+
+
 
 #### Example usage
 
