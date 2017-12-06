@@ -29,11 +29,9 @@ Demo Image Below
 
 ### Useful References
 
-#### Magic-BLAST
+#### NLTK
 
-[BLAST Command Line Manual](https://www.ncbi.nlm.nih.gov/books/NBK279690/)    
-[Magic-BLAST GitHub repo](https://github.com/boratyng/magicblast)    
-[Magic-BLAST NCBI Insights](https://ncbiinsights.ncbi.nlm.nih.gov/2016/10/13/introducing-magic-blast/)    
+[NLTK Website](http://www.nltk.org/)
 
 #### MEGAHIT
 
