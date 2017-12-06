@@ -1,5 +1,5 @@
 # NLP: a Tutorial for Natural Language Processing 
-<img src="https://github.com/ucdenver-CPBS/NLP-and-Annotation/blob/master/img/cloud.png" height="400" width="550">
+<img src="https://github.com/NCBI-Hackathons/VirusCore/blob/master/input.png" height="400" width="550">
 
 
 ## Table of Contents
@@ -17,6 +17,12 @@ NLP is blah
 
 ## <a name="importance"></a>Why is this important?
 
+NLP can help you [classify a large number of documents into categories you defined](https://burakkanber.com/blog/machine-learning-naive-bayes-1/), using Naïve Bayes.
+
+NLP can help you [find how a large number of documents cluster into different categories](http://scikit-learn.org/stable/auto_examples/text/document_clustering.html) automatically, using unsupervised machine learning.
+
+NLP can help you generate synthetic text data to use for training or other purposes.
+
 "NLP can destory the world" 
 
 Sentiment Classification and Trump on Twitter
@@ -33,6 +39,7 @@ The majority of this tutorial is written in Python. Other languages that support
 
 #### NLTK
 
+This is one of the standard natural language processing libraries for Python. Keep in mind this is meant to deal with general language, so you may need to look for domain-specific (i.e. biomedicine) tools depending on your task.
 [NLTK Website](http://www.nltk.org/)
 
 #### MEGAHIT
