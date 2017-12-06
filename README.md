@@ -64,7 +64,8 @@ Required software
 
 ## <a name="usage"></a><a name="tutorial"></a>NLP Usage
 
-
+### Tutorials
++ [Vectorizing Text](https://github.com/ucdenver-CPBS/NLP-and-Annotation/blob/master/notebooks/Vectorizing_Text.ipynb)
 
 
 
