@@ -1,4 +1,7 @@
 # NLP: a Tutorial for Natural Language Processing 
+<img src="https://github.com/NCBI-Hackathons/VirusCore/blob/master/input.png" height="400" width="550">
+
+
 ## Table of Contents
 
 [What is NLP?](#intro)    
@@ -14,18 +17,17 @@ NLP is blah
 
 ## <a name="importance"></a>Why is this important?
 
-NLP can do x
+"NLP can destory the world" 
+
+Sentiment Classification and Trump on Twitter
+
+
 
 ## <a name="workflow"></a>Languages Supporting NLP Packages
 
-Python 
+The majority of this tutorial is written in Python. Other languages that support NLP include R, Java, and PERL.
 
-R 
 
-JAVA 
-
-Demo Image Below
-<img src="https://github.com/NCBI-Hackathons/VirusCore/blob/master/input.png" height="400" width="550">
 
 ### Useful References
 
