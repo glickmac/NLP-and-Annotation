@@ -1,5 +1,5 @@
 # NLP: a Tutorial for Natural Language Processing 
-<img src="https://github.com/NCBI-Hackathons/VirusCore/blob/master/input.png" height="400" width="550">
+<img src="https://github.com/ucdenver-CPBS/NLP-and-Annotation/blob/master/img/cloud.png" height="400" width="550">
 
 
 ## Table of Contents
@@ -13,19 +13,19 @@
 
 ## <a name="intro"></a>What is NLP?
 
-NLP is blah
+Natural Language Processing ([NLP](https://www.google.com/search?rlz=1C5CHFA_enUS727US727&biw=893&bih=927&ei=AWsoWuShBM-YjwPYyK-QDQ&q=what+is+natural+language+processing&oq=what+is+natural+language+processing&gs_l=psy-ab.3..0j0i20i263k1j0l7.5493.9709.0.9834.29.28.1.0.0.0.156.2686.21j7.28.0....0...1.1.64.psy-ab..0.29.2687...0i131i67k1j0i20i264k1j0i131k1j0i67k1j0i131i20i264k1j0i13k1.0.AE1jefbB4Mo) was born as the intersection of artificial intelligence and computational linguistics and focuses on human language-computer interactions. More specifically, NLP provides a means for developing applications that leverage linguistic structure to help computers derive meaning from human language [Cohen et al., 2014](https://books.google.com/books?hl=en&lr=&id=vXvPAgAAQBAJ&oi=fnd&pg=PR1&dq=natural+language+processing,+kevin+cohen&ots=ZG5jQaAmMO&sig=l8YRe4YXml_ceCJwnisYL6RLZ38#v=onepage&q=natural%20language%20processing%2C%20kevin%20cohen&f=false). 
 
 ## <a name="importance"></a>Why is this important?
 
-NLP can help you [classify a large number of documents into categories you defined](https://burakkanber.com/blog/machine-learning-naive-bayes-1/), using Naïve Bayes.
+  * NLP can help you [classify a large number of documents into categories you defined](https://burakkanber.com/blog/machine-learning-naive-bayes-1/), using Naïve Bayes.
 
-NLP can help you [find how a large number of documents cluster into different categories](http://scikit-learn.org/stable/auto_examples/text/document_clustering.html) automatically, using unsupervised machine learning.
+  * NLP can help you [find how a large number of documents cluster into different categories](http://scikit-learn.org/stable/auto_examples/text/document_clustering.html) automatically, using unsupervised machine learning.
 
-NLP can help you generate synthetic text data to use for training or other purposes.
+  * NLP can help you generate synthetic text data to use for training or other purposes.
 
-"NLP can destory the world" 
+  * "NLP can destory the world" 
 
-Sentiment Classification and Trump on Twitter
+  * Sentiment Classification and Trump on Twitter
 
 
 
@@ -37,70 +37,60 @@ The majority of this tutorial is written in Python. Other languages that support
 
 ### Useful References
 
-#### Books
-
-Jurafsky & Martin's NLP book [is available online in PDF format](https://web.stanford.edu/~jurafsky/slp3/)
-[Foundations of Statistical Natural Language Processing (Manning, Schuetze)](https://smile.amazon.com/Foundations-Statistical-Natural-Language-Processing-ebook/dp/B007L7LUKO/ref=mt_kindle?_encoding=UTF8&me=)
-[Natural Language Processing with Python](https://smile.amazon.com/Natural-Language-Processing-Python-Analyzing/dp/0596516495/ref=sr_1_1?ie=UTF8&qid=1512597647&sr=8-1&keywords=natural+language+processing+with+python)
-
 #### Wikipedia
 
-[Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing)
-[Part-of-Speech Tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging)
-[Parsing](https://en.wikipedia.org/wiki/Parsing)
-[Stemming](https://en.wikipedia.org/wiki/Stemming)
-[Named Entity Recognition](https://en.wikipedia.org/wiki/Named-entity_recognition)
+  * [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing)  
+  * [Part-of-Speech Tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging)  
+  * [Parsing](https://en.wikipedia.org/wiki/Parsing)  
+  * [Stemming](https://en.wikipedia.org/wiki/Stemming)  
+  * [Named Entity Recognition](https://en.wikipedia.org/wiki/Named-entity_recognition)  
 
 #### NLTK
 
-[NLTK](http://www.nltk.org/) is one of the standard natural language processing libraries for Python. Keep in mind this is meant to deal with general language, so you may need to look for domain-specific (i.e. biomedicine) tools depending on your task.
-
-For our particular domain, there are tools beyond NLTK that might perform better:
-
-[BioLemmatizer](http://biolemmatizer.sourceforge.net) can help you find the "lemma" of a term, within the context of biology.
-
-
+This is one of the standard natural language processing libraries for Python. Keep in mind this is meant to deal with general language, so you may need to look for domain-specific (i.e. biomedicine) tools depending on your task.
+  * [NLTK Website](http://www.nltk.org/)
 
 #### MEGAHIT
 
-[MEGAHIT GitHub repo](https://github.com/voutcn/megahit)    
-[MEGAHIT Paper](https://www.ncbi.nlm.nih.gov/pubmed/25609793)    
+  * [MEGAHIT GitHub repo](https://github.com/voutcn/megahit)    
+  * [MEGAHIT Paper](https://www.ncbi.nlm.nih.gov/pubmed/25609793)    
 
 #### Protein Domain Identification
 
-[BLAST Command Line Manual](https://www.ncbi.nlm.nih.gov/books/NBK279690/)    
-[NCBI Conserved Domain and Protein Classification](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml)    
+  * [BLAST Command Line Manual](https://www.ncbi.nlm.nih.gov/books/NBK279690/)    
+  * [NCBI Conserved Domain and Protein Classification](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml)    
 
 #### Glimmer3
 
-[Glimmer3 Page at JHU](https://ccb.jhu.edu/software/glimmer/)    
-[Glimmer3 Paper](https://ccb.jhu.edu/papers/glimmer3.pdf)    
-[Glimmer3 Manual](https://ccb.jhu.edu/software/glimmer/glim302notes.pdf)    
+  * [Glimmer3 Page at JHU](https://ccb.jhu.edu/software/glimmer/)    
+  * [Glimmer3 Paper](https://ccb.jhu.edu/papers/glimmer3.pdf)    
+  * [Glimmer3 Manual](https://ccb.jhu.edu/software/glimmer/glim302notes.pdf)    
 
 ## <a name="install"></a>Installing NLP Packages
 
 Required software
-+ Magic-BLAST (>= v1.3): [download](https://ftp.ncbi.nlm.nih.gov/blast/executables/magicblast/LATEST) [documentation](https://boratyng.github.io/magicblast/)
-+ [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
-+ [Samtools](http://www.htslib.org/) (>= version 1.5)
-+ [Prinseq](http://prinseq.sourceforge.net/)
-+ [MEGAHIT](https://github.com/voutcn/megahit)
-+ [Glimmer3](https://ccb.jhu.edu/software/glimmer/)
+  * Magic-BLAST (>= v1.3): [download](https://ftp.ncbi.nlm.nih.gov/blast/executables/magicblast/LATEST) [documentation](https://boratyng.github.io/magicblast/)
+  * [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+  * [Samtools](http://www.htslib.org/) (>= version 1.5)
+  * [Prinseq](http://prinseq.sourceforge.net/)
+  * [MEGAHIT](https://github.com/voutcn/megahit)
+  * [Glimmer3](https://ccb.jhu.edu/software/glimmer/)
 
 
-#### Handy command-line tool examples:
+## <a name="usage"></a><a name="quickstart"></a>NLP Usage
 
-You will find it very beneficial to become acquainted with tools like `awk`, `sed`, and `sort`, among others. Here's a snapshot of things you could do with various Unix command-line tools:
+#### Example usage
 
-| You're trying to...     | You can use:                  |
+```
+viruspy.sh [-d] [-f viral_genomes.fasta/-b viral_db] -s SRR1553459 -o output_folder
+```
+
+#### Required arguments:
+
+| Option     | Description                                     |
 |------------|-------------------------------------------------|
-| ... count how many lines are in a document | `wc -l INPUT_FILE` |
-| ... perform fast & loose tokenization (i.e. to establish a baseline or perform quick stats) splitting on anything that is not a letter | `tr -sc ’A-Za-z’ ’\n’ < INPUT_FILE > OUTPUT_FILE` |
-| ... swap columns 1 and 2, separated by a ":" | `awk -F: -v OFS=":" '{print $2,$1}' INPUT_FILE`  |
-| ... keep only the first 3 columns from a tab-separated file | `awk -F\t -v OFS="\t" '{print $1,$2,$3}' INPUT_FILE > OUTPUT_FILE` |
-| ... remove duplicate lines from a file | `awk '!seen[$0]++' INPUT_FILE > OUTPUT_FILE` |
-| ... sort REALLY LARGE files (ideally in a cluster) | `sort --buffer-size=4G -k1,1 -k2,2n -i $BEDFILE_HG19 > $BEDFILE_HG19_SORTED` |
-| ... replace any instance of string `This is foo` with string `This is bar` | `sed 's/^\(This is \).*$/\1bar/'` |
+| **-s**   | SRR acession number from SRA database           |
+| **-o**   | Folder to be used for pipeline output |
 
 #### Optional arguments:
 
