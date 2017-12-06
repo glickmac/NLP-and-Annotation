@@ -127,3 +127,6 @@ some_string_var.decode('utf8', 'ignore')
 ```
 
 
+# TODO
+
+How to obtain a corpora of text (searching and mass downloading from Pubmed)
