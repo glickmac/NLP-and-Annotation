@@ -1,20 +1,20 @@
-# Conlp: Colorado Natural Language Processing Repository 
+# NLP: a Tutorial for Natural Language Processing 
 ## Table of Contents
 
 [What is NLP?](#intro)    
 [Why is this important?](#importance)    
 [What Language?](#workflow)       
 [Installing NLP Tools](#install)    
-[NLP Tutorials](#tutorial)        
-[Additional Functionality](#additional)    
+[NLP Usage](#usage)        
+[Miscellaneous things you should know](#additional)    
 
 ## <a name="intro"></a>What is NLP?
 
-Natural Language Process or NLP is blah
+NLP is blah
 
 ## <a name="importance"></a>Why is this important?
 
-NLP is used in x, y, and z. 
+NLP can do x
 
 ## <a name="workflow"></a>Languages Supporting NLP Packages
 
@@ -62,12 +62,7 @@ Required software
 + [Glimmer3](https://ccb.jhu.edu/software/glimmer/)
 
 
-## <a name="usage"></a><a name="tutorial"></a>NLP Usage
-
-### Tutorials
-+ [Vectorizing Text](https://github.com/ucdenver-CPBS/NLP-and-Annotation/blob/master/notebooks/Vectorizing_Text.ipynb)
-
-
+## <a name="usage"></a><a name="quickstart"></a>NLP Usage
 
 #### Example usage
 
@@ -92,3 +87,27 @@ viruspy.sh [-d] [-f viral_genomes.fasta/-b viral_db] -s SRR1553459 -o output_fol
 
 
 ## <a name="additional"></a>Additional Functionality
+
+#### Dealing with Unicode and special characters
+
+You will encounter special characters very often when dealing with biomedical data (e.g., "TNF1-α"). This could cause several of the common functions in NLP Python libraries to fail. In order to ensure the highest level of safety, you can add this at the very top of your Python script to interpret all text inputs as UTF-8:
+
+```
+# -*- coding: utf-8 -*-
+```
+
+... and include this as your last `import`:
+
+```
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+```
+
+If you want to just ignore some of the special characters (especially those that may be just control characters), you could convert your `some_string_var` variable to UTF-8 by:
+
+```
+some_string_var.decode('utf8', 'ignore')
+```
+
+
