@@ -56,33 +56,15 @@ The majority of this tutorial is written in Python. Other languages that support
 
 * [NLTK](http://www.nltk.org/) is one of the standard natural language processing libraries for Python. Keep in mind this is meant to deal with general language, so you may need to look for domain-specific (i.e. biomedicine) tools depending on your task.
 * For our particular domain, there are tools beyond NLTK that might perform better:
-   * [BioLemmatizer](http://biolemmatizer.sourceforge.net) can help you find the "lemma" of a term, within the context of biology.
-
-#### MEGAHIT
-
-  * [MEGAHIT GitHub repo](https://github.com/voutcn/megahit)    
-  * [MEGAHIT Paper](https://www.ncbi.nlm.nih.gov/pubmed/25609793)    
-
-#### Protein Domain Identification
-
-  * [BLAST Command Line Manual](https://www.ncbi.nlm.nih.gov/books/NBK279690/)    
-  * [NCBI Conserved Domain and Protein Classification](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml)    
-
-#### Glimmer3
-
-  * [Glimmer3 Page at JHU](https://ccb.jhu.edu/software/glimmer/)    
-  * [Glimmer3 Paper](https://ccb.jhu.edu/papers/glimmer3.pdf)    
-  * [Glimmer3 Manual](https://ccb.jhu.edu/software/glimmer/glim302notes.pdf)    
+   * [BioLemmatizer](http://biolemmatizer.sourceforge.net) can help you find the "lemma" of a term, within the context of biology.   
 
 ## <a name="install"></a>Installing NLP Packages
 
 Required software
-  * Magic-BLAST (>= v1.3): [download](https://ftp.ncbi.nlm.nih.gov/blast/executables/magicblast/LATEST) [documentation](https://boratyng.github.io/magicblast/)
-  * [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
-  * [Samtools](http://www.htslib.org/) (>= version 1.5)
-  * [Prinseq](http://prinseq.sourceforge.net/)
-  * [MEGAHIT](https://github.com/voutcn/megahit)
-  * [Glimmer3](https://ccb.jhu.edu/software/glimmer/)
+  * NLTK:   
+  ```
+pip install nltk
+```
 
 
 ## <a name="usage"></a><a name="quickstart"></a>NLP Usage
