@@ -1,0 +1,6 @@
+dependencies:
+ - skater  
+ - gensim
+ - spacy
+ - tensorflow
+ - keras
