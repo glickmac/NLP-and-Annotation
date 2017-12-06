@@ -92,7 +92,6 @@ Required software
 You will find it very beneficial to become acquainted with tools like `awk`, `sed`, and `sort`, among others. Here's a snapshot of things you could do with various Unix command-line tools:
 
 | You're trying to...     | You can use:                  |
-| Option     | Description                                     |
 |------------|-------------------------------------------------|
 | ... count how many lines are in a document | `wc -l INPUT_FILE` |
 | ... perform fast & loose tokenization (i.e. to establish a baseline or perform quick stats) splitting on anything that is not a letter | `tr -sc ’A-Za-z’ ’\n’ < INPUT_FILE > OUTPUT_FILE` |
