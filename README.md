@@ -35,8 +35,15 @@ The majority of this tutorial is written in Python. Other languages that support
 
 
 
-### Useful References
+### Useful Resources
 
+#### Books
+
+* Jurafsky & Martin's NLP book [is available online in PDF format](https://web.stanford.edu/~jurafsky/slp3/)
+* [Foundations of Statistical Natural Language Processing (Manning, Schuetze)](https://smile.amazon.com/Foundations-Statistical-Natural-Language-Processing-ebook/dp/B007L7LUKO/ref=mt_kindle?_encoding=UTF8&me=)
+* [Natural Language Processing with Python](https://smile.amazon.com/Natural-Language-Processing-Python-Analyzing/dp/0596516495/ref=sr_1_1?ie=UTF8&qid=1512597647&sr=8-1&keywords=natural+language+processing+with+python)
+
+ 
 #### Wikipedia
 
   * [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing)  
@@ -47,8 +54,9 @@ The majority of this tutorial is written in Python. Other languages that support
 
 #### NLTK
 
-This is one of the standard natural language processing libraries for Python. Keep in mind this is meant to deal with general language, so you may need to look for domain-specific (i.e. biomedicine) tools depending on your task.
-  * [NLTK Website](http://www.nltk.org/)
+* [NLTK](http://www.nltk.org/) is one of the standard natural language processing libraries for Python. Keep in mind this is meant to deal with general language, so you may need to look for domain-specific (i.e. biomedicine) tools depending on your task.
+* For our particular domain, there are tools beyond NLTK that might perform better:
+   * [BioLemmatizer](http://biolemmatizer.sourceforge.net) can help you find the "lemma" of a term, within the context of biology.
 
 #### MEGAHIT
 
@@ -79,26 +87,20 @@ Required software
 
 ## <a name="usage"></a><a name="quickstart"></a>NLP Usage
 
-#### Example usage
+#### Handy command-line tool examples
 
-```
-viruspy.sh [-d] [-f viral_genomes.fasta/-b viral_db] -s SRR1553459 -o output_folder
-```
+You will find it very beneficial to become acquainted with tools like `awk`, `sed`, and `sort`, among others. Here's a snapshot of things you could do with various Unix command-line tools:
 
-#### Required arguments:
-
+| You're trying to...     | You can use:                  |
 | Option     | Description                                     |
 |------------|-------------------------------------------------|
-| **-s**   | SRR acession number from SRA database           |
-| **-o**   | Folder to be used for pipeline output |
-
-#### Optional arguments:
-
-| Option    | Description |
-|-----------|-------------|
-| **-f**    |FASTA file containing viral sequences to be used in construction of a BLAST database. If neither this argument nor -b are used, ViruSpy will default to using the Refseq viral genome database.|
-| **-b**    |BLAST database with viral sequences to be used with Magic-BLAST. If neither this argument nor -f are used, ViruSpy will default to using the Refseq viral genome database.|
-| **-d**    |Determines signature of viruses that are integrated into a host genome (runs the BUD algorithm)|
+| ... count how many lines are in a document | `wc -l INPUT_FILE` |
+| ... perform fast & loose tokenization (i.e. to establish a baseline or perform quick stats) splitting on anything that is not a letter | `tr -sc ’A-Za-z’ ’\n’ < INPUT_FILE > OUTPUT_FILE` |
+| ... swap columns 1 and 2, separated by a ":" | `awk -F: -v OFS=":" '{print $2,$1}' INPUT_FILE`  |
+| ... keep only the first 3 columns from a tab-separated file | `awk -F\t -v OFS="\t" '{print $1,$2,$3}' INPUT_FILE > OUTPUT_FILE` |
+| ... remove duplicate lines from a file | `awk '!seen[$0]++' INPUT_FILE > OUTPUT_FILE` |
+| ... sort REALLY LARGE files (ideally in a cluster) | `sort --buffer-size=4G -k1,1 -k2,2n -i $BEDFILE_HG19 > $BEDFILE_HG19_SORTED` |
+| ... replace any instance of string `This is foo` with string `This is bar` | `sed 's/^\(This is \).*$/\1bar/'` |
 
 
 ## <a name="additional"></a>Additional Functionality
