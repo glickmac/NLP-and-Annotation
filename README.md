@@ -31,6 +31,14 @@ The majority of this tutorial is written in Python. Other languages that support
 
 ### Useful References
 
+#### Wikipedia
+
+[Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing)
+[Part-of-Speech Tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging)
+[Parsing](https://en.wikipedia.org/wiki/Parsing)
+[Stemming](https://en.wikipedia.org/wiki/Stemming)
+[Named Entity Recognition](https://en.wikipedia.org/wiki/Named-entity_recognition)
+
 #### NLTK
 
 [NLTK Website](http://www.nltk.org/)
